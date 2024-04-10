@@ -3,7 +3,7 @@ void main(){
    int a=2;
    int b=32;
    int c =a+b;
-   String names='dsa learning is ';
+   String names='dsa learning is very';
 
   print(name);
   print(names);
