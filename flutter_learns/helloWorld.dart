@@ -12,4 +12,6 @@ void main() {
   print("Add number:" + '3+5');
   print('3+5');
   // this is a add autometically
+  print("3+5");
+  //this is  a string
 }
