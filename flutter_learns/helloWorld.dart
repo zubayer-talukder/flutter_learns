@@ -10,8 +10,10 @@ void main() {
     murdabad
 ''');
   print("Add number:" + '3+5');
-  print('3+5');
+  print(3+5 );
   // this is a add autometically
   print("3+5");
   //this is  a strings
+  print('3+5 = ${3+5}');
+  // use dollar sign 
 }
