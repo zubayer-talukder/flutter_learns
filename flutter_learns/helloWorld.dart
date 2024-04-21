@@ -15,5 +15,5 @@ void main() {
   print("3+5");
   //this is  a strings
   print('3+5 = ${3+5}');
-  // use dollar sign 
+  // use dollar signs
 }
