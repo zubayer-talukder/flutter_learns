@@ -5,5 +5,6 @@ void main(){
     // it print the value of a h
     print('h =${h+21}');
     // CURLE  bracket will represent the value of h+21 
+    // karon {}-->> eita 1 ta er odik kaj  kora hoile oita bujai
     
 }
