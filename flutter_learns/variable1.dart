@@ -1,6 +1,6 @@
 void main(){
   var h=2343;
-  // var is explecitly int format
+  // var is explicitly int format
   // var is here a variable
   print('h =$h');
     // it print the value of a h
