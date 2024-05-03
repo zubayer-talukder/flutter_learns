@@ -11,5 +11,5 @@ print('h =${h+21}');
 double y=21.32;
 String str='zubayer';
 print('y =$y');
-print('Str =$str');
+print('Str =$str ');
 }
