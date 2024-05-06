@@ -13,7 +13,13 @@ String str='zubayer';
 bool f=false  ;
 int x=032;
 print('x=$x');
+// this will print the value of x
 print('y =$y');
 print('Str =$str ');
 print('bool = $f');
+
+final int a=23;
+
+print('a=$a');
+// eitar mane holo eita only final value store korbe 
 }
