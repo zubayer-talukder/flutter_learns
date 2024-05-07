@@ -24,6 +24,6 @@ print('a=$a ');
 // eitar mane holo eita only final value store korbe onno kisu dekhabe na
 
 
-const  p=2.03;
+const p=2.03;
 print('p=$p');
 }
