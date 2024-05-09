@@ -3,6 +3,8 @@ void main(){
    int a=2;
    int b=32;
    int c =a+b;
+   int as,bd,df;
+   // variable can be written by using comma
    String names='dsa  learning is very necessary for a';
 
   print(name);
