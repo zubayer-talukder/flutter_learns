@@ -5,8 +5,8 @@ void main(){
    int c =a+b;
    int as,bd,df;
    // variable can be written by using comma did u understand ?? ok 
-   String names='dsa  learning is very necessary for  a';
-   
+   String names='dsa learning is very necessary for  a';
+
   print(name);
   print(names);
   print(c);
