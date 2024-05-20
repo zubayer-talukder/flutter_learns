@@ -10,6 +10,14 @@ print(hi);
 print(hi.runtimeType);
 // this will print the runtime value of the variable
 
+
+var num1 = '22';
+var num2 =num.parse(num1);
+print(num2.runtimeType);
+
+
+
+
   // This is a example of Single Line Comments
   /* this
     is 
