@@ -4,4 +4,14 @@ void main(){
 print('DOUBLE to int Formation: X = $x');
   var y= x.toDouble();
   print('Int To Double Formation: Y = $y');
+
+  // This is a example of Single Line Comments
+  /* this
+    is 
+    a 
+    example
+     of
+      Single
+       Line 
+       Comments*/
 }
