@@ -9,6 +9,17 @@ void main(){
   // }
 
   //a<b?print('A = $a is Smaller'):print('B = $b is Smaller');
-var smallerNumberCollector = a>b?b:a;
-print('Smaller Number is = $smallerNumberCollector');
+// var smallerNumberCollector = a>b?b:a;
+// print('Smaller Number is = $smallerNumberCollector');
+
+var name ;
+var v1=name??'Zubayer';
+// eitar mane holo jodi name variable ta empty thake  taholey sudu v1 variable e Zubayer name assign koro , na hole korar dorkar nai 
+print(v1);
+
+var names='donkey';
+var v2=names??'Cows';
+// (names??'Cows') -->> er  mane holo je jodi names er man empty thake tahole  Cows bosiya dite hobe noile dorkar nai
+print(' V2 = $v2'); 
+
 }
