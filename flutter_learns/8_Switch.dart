@@ -20,5 +20,8 @@ void main() {
     case '%':
       print('X % Y = ${x % y}');
       break;
+   default:
+      print('Not vaid');
+      break;
   }
 }
