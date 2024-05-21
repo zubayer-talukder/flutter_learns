@@ -14,8 +14,8 @@ void main() {
   } while (j < 11);
 
 //type 3: For loop
-var k=0;
-for(k=0;k<11;k++){
-  print(" $k. It's 100% true");
-}
+  var k = 0;
+  for (k = 0; k < 11; k++) {
+    print(" $k. It's 100% true");
+  }
 }
