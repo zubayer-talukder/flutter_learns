@@ -18,4 +18,9 @@ void main() {
   for (k = 0; k < 11; k++) {
     print(" $k. It's 100% true");
   }
+
+  // infinite loops 
+  // while(true){
+  //   print(' Zubayer');
+  // }
 }
