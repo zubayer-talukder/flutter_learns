@@ -2,7 +2,7 @@ void main() {
   var x = 5;
   var y = 56;
 
-  var op = '/';
+  var op = '5';
 
   switch (op) {
     case '+':
