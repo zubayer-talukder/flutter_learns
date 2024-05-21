@@ -11,15 +11,15 @@ void main() {
   print('x.isInfinite = ${x.isInfinite}');
   // this is not a NUMBER checker
   print('x.isNaN = ${x.isNaN}');
-  // this is Negative checker 
+  // this is Negative checker
   print('x.isNegative = ${x.isNegative}');
   // this prints only absolute value
   print('x.abs() = ${x.abs()}');
-  
-   var y = -32.5;
-   print('This a NUmber = $y');
+
+  var y = -32.5;
+  print('This a NUmber = $y');
   print('y.round() = ${y.round()}');
-  // this will print round figure  number 
+  // this will print round figure  number
   print('y.floor() = ${y.floor()}');
   //  floor __>>Returns the largest integer less than or equal to y
   print('y.truncate() = ${y.truncate()}');
@@ -28,7 +28,5 @@ void main() {
   print('y.ceil() = ${y.ceil()}');
   // upper value neiya ney 0.5 er besi holeii
   print('y. = ${y.remainder(x)}');
-  // vagses niya ney 
-
-
+  // vagses niya ney
 }
