@@ -16,7 +16,7 @@ void main() {
   // this prints only absolute value
   print('x.abs() = ${x.abs()}');
   
-   var y = 32.5;
+   var y = -32.5;
    print('This a NUmber = $y');
   print('y.round() = ${y.round()}');
   // this will print round figure  number 
@@ -27,7 +27,7 @@ void main() {
 // Soja kotha holo  direct  fraction ta delete kore dey
   print('y.ceil() = ${y.ceil()}');
   // upper value neiya ney 0.5 er besi holeii
-  print('y. = ${y.remainder(y)}');
+  print('y. = ${y.remainder(x)}');
   // vagses niya ney 
 
 
