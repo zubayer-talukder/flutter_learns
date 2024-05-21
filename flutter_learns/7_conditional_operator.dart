@@ -8,5 +8,7 @@ void main(){
   //   print('$b is Smaller');
   // }
 
-  a<b?print('A = $a is Smaller'):print('B = $b is Smaller');
+  //a<b?print('A = $a is Smaller'):print('B = $b is Smaller');
+var smallerNumberCollector = a>b?b:a;
+print('Smaller Number is = $smallerNumberCollector');
 }
