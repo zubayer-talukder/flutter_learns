@@ -1,12 +1,7 @@
 void main(){
-  print('Zubayer');
-  print('Zubayer');
-  print('Zubayer');
-
   
-  
-  
- 
-  
-  
-}
+var i= 0;
+while(i<11){
+print('$i. Zubayer');
+  i++;
+}}
