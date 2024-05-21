@@ -1,4 +1,7 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
+  // ignore: unused_local_variable
   var a = 3;
   var b = 4;
   // if (a < b) {
