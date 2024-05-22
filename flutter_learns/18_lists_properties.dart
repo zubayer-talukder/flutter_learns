@@ -27,5 +27,19 @@ print(list1); // output -->> [1, 0, 3, 99, 4, 5, 88, 77, 66, 55, 6, 7, 8, 100, 1
 list1.remove(100); // this will remove the value of 100 only from the list
 print(list1); // output-->> [1, 0, 3, 99, 4, 5, 88, 77, 66, 55, 6, 7, 8, 10, 20, 30, 40]
 
+list1.removeAt(2); // this will remove the index 2 value from the list
+print(list1); // output -->>[1, 0, 99, 4, 5, 88, 77, 66, 55, 6, 7, 8, 10, 20, 30, 40]
+
+list1.removeLast();// remove the last value of list 
+print(list1);// output --> [1, 0, 99, 4, 5, 88, 77, 66, 55, 6, 7, 8, 10, 20, 30]
+ 
+ list1.removeRange(0, 6); // this will remove elements from index 0 to 5 index 
+ print(list1); // output -->> [77, 66, 55, 6, 7, 8, 10, 20, 30]
+
+ list1.replaceRange(0, 5, [797,999,900]);// the list will be replace from 0 to 4 index , and  get the values
+ print(list1);// output--->> [797, 999, 900, 8, 10, 20, 30]
+
+ list1.clear();// it will clear all the values from the list and make it empty list
+ print(list1); // output --->> []
 
 }
