@@ -18,6 +18,9 @@ void main() {
   print(y.entries); // show all the mapps
   y.addAll({8:"Orrange",2:"Mango",0:"Tap Water"});
   print(y);// now addAll will add all the values at the last of the mapps
-  
+
+  // some boolean values
+   print(y.containsKey(8));
+   print(x.containsValue('Water Melon'));
 
 }
