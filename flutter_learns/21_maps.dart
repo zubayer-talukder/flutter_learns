@@ -23,4 +23,8 @@ void main() {
    print(y.containsKey(8));
    print(x.containsValue('Water Melon'));
 
+x.remove(5);// to removing an element we just need to remove only  the key value
+print(x);
+x.clear(); // clearing all the elements
+print(x);
 }
