@@ -1,5 +1,5 @@
 void main() {
-  var x = {10, 20, 30, 40, 50};
+  var x = {10, 22, 30, 40, 50};
   Set y; 
   y  = {44, 55, 66, 77};
   print(x); // print x
@@ -27,4 +27,12 @@ void main() {
 
   y.clear();
   print(y);// null sets will get
+
+
+  var a={38,92,22,71,42,11};
+  var b= {43,22,11,89};
+  print(a.union(b)); // union -->> all the value will get 
+  print(a.intersection(	b)); // intersection -->> all the common value
+  print(a.difference(b)); // a-b ::-->> eitar moto kaj kore , what are the elements that are not have in b set
+  print(a.difference(x));
 }
