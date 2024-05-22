@@ -1,7 +1,6 @@
 // ignore_for_file: unused_local_variable
 
 void main() {
-  // ignore: unused_local_variable
   var a = 3;
   var b = 4;
   // if (a < b) {
@@ -21,6 +20,6 @@ void main() {
 
   var names = 'donkey';
   var v2 = names ?? 'Cows';
-// (names??'Cows') -->> er  mane holo je jodi names er man empty thake tahole  Cows bosiya dite hobe noile dorkar nai
+// (names??'Cows') -->> er  mane holo je jodi names er man empty thake tahole  Cows bosiya dite hobe noile Cows dorkar nai
   print(' V2 = $v2');
 }
