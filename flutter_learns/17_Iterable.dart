@@ -8,6 +8,9 @@ void main() {
   print(li3);
   print(li4);
   print('\n');
+
+  // to get a specific value. We will use this.
+  print(li3[2]); // output will get --->>> 56.652
 /* 
 List: Use when you need an ordered collection and access by index.
 Set: Use when you need a collection of unique items and order does not matter.
@@ -26,6 +29,7 @@ Map: Use when you need to associate keys with values for quick lookup by keys.
   print(l2);
   print(l3);
   print(l4);
+
   print('\n');
 
   Map<int, String> map1 = {
