@@ -15,6 +15,9 @@ void main() {
   print(y.keys); // what are the keys are available here
   print(y.values); // what are the values are available here
 
+  print(y.entries); // show all the mapps
+  y.addAll({8:"Orrange",2:"Mango",0:"Tap Water"});
+  print(y);// now addAll will add all the values at the last of the mapps
   
 
 }
