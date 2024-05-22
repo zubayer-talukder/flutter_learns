@@ -24,4 +24,8 @@ print(list1); // output -->> [1, 0, 3, 99, 4, 5, 6, 7, 8, 100, 10, 20, 30, 40]
 list1.insertAll(6, [88,77,66,55]);// this will add all the elements at index 6 
 print(list1); // output -->> [1, 0, 3, 99, 4, 5, 88, 77, 66, 55, 6, 7, 8, 100, 10, 20, 30, 40]
 
+list1.remove(100); // this will remove the value of 100 only from the list
+print(list1); // output-->> [1, 0, 3, 99, 4, 5, 88, 77, 66, 55, 6, 7, 8, 10, 20, 30, 40]
+
+
 }
