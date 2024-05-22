@@ -8,7 +8,7 @@ void main() {
   for (int i = 0; i < a.length; i++) {
     print(a[i]);
   }
-print('\n');
+print('\n ');
   var b =[
     [10,20,30],
     [77,88,99],
@@ -26,4 +26,11 @@ print('\nI am providing all the elements : ');
     }
   }
 
+print('\n 2D array');
+for (var x = 0; x < b.length; x++) {
+  for (var y = 0; y < b.length; y++) {
+    print(b[x][y]);
+  }
+  
+}
 }
