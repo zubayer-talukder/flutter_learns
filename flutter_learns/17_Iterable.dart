@@ -37,7 +37,7 @@ Map: Use when you need to associate keys with values for quick lookup by keys.
   print(l4);
 
   print('\n');
-  /* to get a specific value. We will use this.
+  /* to get a specific value. We have to use this.
 
    a Set is an unordered collection of unique items and does not support indexing (i.e., you cannot access elements by their position like you would with a List). Trying to access an element by index, such as l3[2], will result in an error.
 
