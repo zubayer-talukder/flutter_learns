@@ -25,9 +25,15 @@ void fun3(p, q) {
   print(p + q);
 }
 
+String fun4(String x,String y){
+ print('This is the value of Function4 $y= $x');
+ return y;
+}
+
 void main() {
   fun1();
   print(fun2());
   fun3(56, 78);
   //using parameter
+  fun4('57', 'Zubayer');
 }
