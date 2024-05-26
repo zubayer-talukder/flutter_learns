@@ -10,8 +10,6 @@
 // return 'MESSAGE = $message';
 // }
 
-
-
 void fun1() {
   // void means no return
   print(3 + 4);
