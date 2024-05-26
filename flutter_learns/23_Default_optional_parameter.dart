@@ -7,7 +7,7 @@
 // }
 void main() {
   sumation(5);
-// if i wanna pass a single value through a function i have to set a default value
+// if i wanna pass a single value through a function i have to set a default value, third briacket in a function means that it has alredy set a default value in the function
 }
 
 void sumation(x, [y = 10]) {
