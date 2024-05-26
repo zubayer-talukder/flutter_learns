@@ -10,7 +10,7 @@
 // return 'MESSAGE = $message';
 // }
 
-import 'dart:ffi';
+
 
 void fun1() {
   // void means no return
