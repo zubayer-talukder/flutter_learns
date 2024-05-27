@@ -19,11 +19,12 @@
 import 'dart:html';
 
 void main() {
-  sum(3,y:42);
-  // if i wanna set a value to a optional parameter so i have to set it in the function 42 is assign in the y 
+  sum(3, y: 42);
+  // if i wanna set a value to a optional parameter so i have to set it in the function 42 is assign in the y
 }
-void sum(x,{y=0,z,f,r=34}){
+
+void sum(x, {y = 0, z, f, r = 34}) {
   // curly briacket means that it has set a optional parameter in the function
-  // i can use multiple optional parameter 
-print('Sum = ${x+y}');
+  // i can use multiple optional parameter
+  print('Sum = ${x + y}');
 }
