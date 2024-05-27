@@ -8,6 +8,6 @@ void main(){
   //type 2: printing arrary by using for loop
   print('The value of a arrary by using for loop');
   for(int i=0;i<a.length;i++){
-    print('Value ${ i+1} = ${ a[i]}');
+    print('Index $i = ${ a[i]}');
   }
 }
