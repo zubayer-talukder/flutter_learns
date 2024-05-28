@@ -5,7 +5,7 @@ void main() {
 void info() {
   for (var i = 0; i <= 10; i++) {
     if (i == 6) {
-      break;
+      throw 'Error';
     }
     print('i=$i');
   }
