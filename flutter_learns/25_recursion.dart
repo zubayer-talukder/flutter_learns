@@ -1,5 +1,5 @@
 void main() {
-  var x = fun(10);
+  var x = fun(100);
   print(x);
 }
 
