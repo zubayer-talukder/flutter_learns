@@ -10,4 +10,12 @@ void main(){
   for(int i=0;i<a.length;i++){
     print('Index $i = ${ a[i]}');
   }
+
+print("\nthis prints FOR EACH loop ");
+  //type 3: printing arrary by using for each loop
+  
+  for (var x in b) {
+    print(x);
+    
+  }
 }
