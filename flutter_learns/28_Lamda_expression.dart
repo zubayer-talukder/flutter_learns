@@ -1,7 +1,10 @@
-int fun1() {
-  return 30 + 60;
+fun1() {
+  print(40 + 60);
 }
+// lamada function
 
+lam1() => 3 + 4;
 void main() {
-  print(fun1());
+  fun1();
+  lam1();
 }
