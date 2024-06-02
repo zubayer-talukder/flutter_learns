@@ -15,13 +15,18 @@ int fun4(x, y) {
 }
 
 // lamada function
-//  it means that lamda is a type of function a function can be written as  shown result .
+//  it means that lamda is  a type of function a function can be written as  shown result .
 void lam1() => print(40 + 60);
 int lam2() => 50 + 60;
 void lam3(x, y) => print(x + y);
 int lam4(x, y) => x + y;
 
 void main() {
+// for list
+  [30, 40, 50, 60].forEach((element) {
+    print(element);
+  });
+
   lam1();
   lam2();
   lam3(32, 31);
