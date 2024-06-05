@@ -7,6 +7,9 @@ var a1 = (x, y) => print('Sum from lamda = ${x + y}');
 void main() {
   sum(32, 55);
   a1(55, 66);
+  HOF(99, 07, a1);
 }
 
-void HOf() {}
+void HOF(int a, int b, Function sum) {
+  sum(a, b);
+}
