@@ -25,4 +25,12 @@ void main() {
   print('c1 =$c1');
   print('c2 =$c2');
   print('d =$d');
+
+  a1.removeWhere((element) => element % 2 == 0);
+  // this will remove where it satisfy its condition
+  print(a1);
+
+  a1.retainWhere((element) => element % 2 == 1);
+  // this will allow only those element where it will satisfy its condition
+  print(a1);
 }
