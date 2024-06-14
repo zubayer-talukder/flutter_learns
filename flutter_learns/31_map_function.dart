@@ -7,4 +7,5 @@ void main() {
   // it means that it will  give a boolean value  if  any of it satisfy this condition
   print(a1.every((element) => element % 2 == 0));
   // it means that it will give a  boolean value thAT every element is  satisfy this condition
+  print(a1.take(3));// take 3 elements of the list\
 }
