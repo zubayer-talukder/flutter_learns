@@ -17,6 +17,7 @@ void main() {
    {sum+=e;
     return e;
     }).toList();
+    print(sum);
 
     List<List<int>>arr =[[1,2,3]];
     sum=0.0;
