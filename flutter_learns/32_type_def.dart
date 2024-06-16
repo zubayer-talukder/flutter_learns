@@ -4,7 +4,7 @@
 //   s(x, y);
 // } --->> this function needs a must of same type of parameter 
 
-void info(){
+void info(X,Y){
   print("Hello");
 }
 // if we use typedef it is not mandatory to follow the same type of parameter to run this operation
@@ -25,17 +25,17 @@ void main() {
 }
 
 void sum(a, b) {
-  print('$a + $b =${a + b}');
+  print('$a + $b = ${a + b}');
 }
 
 void sub(a, b) {
-  print('$a - $b =${a - b}');
+  print('$a - $b = ${a - b}');
 }
 
 void mul(a, b) {
-  print('$a * $b =${a * b}');
+  print('$a * $b = ${a * b}');
 }
 
 void div(a, b) {
-  print('$a / $b =${a / b}');
+  print('$a / $b = ${a / b}');
 }
