@@ -9,20 +9,21 @@ void main() {
   h1.height = 190.4;
   h1.name = "Abdullah Zubayer Talukder";
   h1.age = 66;
-  h1.fun();
+
   print(h1.name);
   print(h1.age);
   print(h1.height);
-
+  h1.fun();
   print("--------------------");
   var h2 = Human();
-  h1.height = 190.4;
-  h1.name = "Abdullah Zubayer Talukder";
-  h1.age = 66;
-  h1.fun();
-  print(h1.name);
-  print(h1.age);
-  print(h1.height);
+  h2.height = 156.4;
+  h2.name = "Abdullah ";
+  h2.age = 74;
+
+  print(h2.name);
+  print(h2.age);
+  print(h2.height);
+  h2.fun();
 }
 
 class Human {
