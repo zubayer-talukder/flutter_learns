@@ -3,6 +3,7 @@ void main() {
 // h1  is a object.
 // Human is a class
   var x = 10;
+  print(x);
 // x is also a object in a built in object
 // x is represented by a class integer
 
