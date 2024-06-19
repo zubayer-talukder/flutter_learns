@@ -25,14 +25,16 @@
 // static variables is here 
 void main() {
   //var h1 = Human();// no need this 
-  Human.values('Abdullah', 22, 170);
+  Human.values('Abdullah', p_age: 70, height: 40);
   // var h2 = Human();
- Human.values('Zubayer', 26, 169);
+ Human.values('Zubayer', p_age: 40);
 }
 
 class Human {
   static var name, age, height;
- static void values(String name, int p_age, double height) {
+ //static void values(String name, int p_age, double height) {
+ static void values(String name, {int p_age=00, double height=0}) {
+    // {inside of curle bricket it means to a named parameter}
     name = name;
     age = p_age; 
     height = height;
