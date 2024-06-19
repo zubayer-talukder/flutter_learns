@@ -7,12 +7,13 @@ void main() {
 
 class Human {
   var name, age, height;
-  void values(String name, int age, double height) {
+  void values(String name, int p_age, double height) {
     this.name = name;
-    this.age = age;
+    age = p_age;
     this.height = height;
-    print('Name =$name');
+    print('Name = $name');
     print('Age = $age');
     print('Height = $height');
+    print("----------------");
   }
 }
