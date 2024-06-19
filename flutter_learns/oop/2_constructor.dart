@@ -32,9 +32,5 @@ class Human {
     print("--------------------");
   }
 
-  void fun() {
-    age += 5;
-    print(' After age =$age');
-    
-  }
+  
 }
