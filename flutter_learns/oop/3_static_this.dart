@@ -11,6 +11,8 @@ class Human {
   this.name =name;
   this.age=age;
   this.height=height;
+  print('Name =$name');
+  print('Age = $age');
   }
 
 }
