@@ -40,11 +40,11 @@ class Human {
     height = height;
     print('Name = $name');
     print('Age = $age');
-    print('Height = $height');
+    print('Length = $height');
     
     age +=5;
     print('New age = $age');
-    print('Lenght = $height');
+    print('Length = $height');
     print("----------------");
   }
 }
