@@ -6,7 +6,7 @@ class a {
 class b  extends a{
 
 }
-
+// sub class
 class c extends b{
 
 }
