@@ -6,7 +6,7 @@ class a {
 // direct super class
 class b  extends a{
 void fun()=>super.info("Abdullah");
-// "super"--> it means that info function is calling. class b is calling from its upper class a 
+// "super"--> it means that info function is calling from class a. class b is calling from its upper or super class a . that's why we use 'Super' keyword.
 }
 
 //sub class
