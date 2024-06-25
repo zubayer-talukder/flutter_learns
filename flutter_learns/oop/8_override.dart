@@ -25,6 +25,9 @@
 
 
 // overriding Examples
+// same nam er method thakte hobe taholei kaj korbe overriding ta 
+
+
 
 class father {
   // parent class
@@ -47,5 +50,6 @@ void main() {
 
   var fatherObj = father();
   fatherObj.TotalTaka();
-  // parent can access total taka as well as child  can also access it .
-}
+  // parent ke access korley toh parent koto taka reikha gese oita buja jabeii
+
+   }
