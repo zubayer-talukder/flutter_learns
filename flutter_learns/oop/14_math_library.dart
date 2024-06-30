@@ -16,7 +16,10 @@ void main() {
   print('min(3,5.342)=${min(3, 5.342)}');
   print('e=$e');
   print('In2=$ln2');
-  
+  print('log10e=$log10e');
+  print('pi=$pi');
+  print('sart1_2=$sqrt1_2');
+  print('sqrt2=$sqrt2');
 
 
 }
