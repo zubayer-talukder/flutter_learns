@@ -1,7 +1,7 @@
 // Lexical Closure
 void main(){
-  fun(){
-    print('Hello');
+ void fun(String str){
+    print('Message $str');
   }
-  fun();
+  fun('Hello');
 }
