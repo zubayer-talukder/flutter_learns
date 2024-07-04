@@ -5,8 +5,21 @@ void main(){
 //   }
 //   fun('Hello');
 
- var a = (String str){
-    print('Message $str');
-  };
- a('Hello');
+//  var a = (String str){
+//     print('Message $str');
+//   };
+//  a('Hello');
+// }
+Function fun(){
+ var message;
+ Function say = (String msg){
+message = msg;
+print(message);
+ };
+    return say;
+  }
+ 
+
+var f = fun();
+f(' hi ');
 }
