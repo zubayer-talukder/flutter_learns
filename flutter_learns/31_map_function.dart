@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
   var list1 = [10, 11, 12, 13, 14, 15];
   var list2=[...list1	,...[32,44,53,53],45,55];
